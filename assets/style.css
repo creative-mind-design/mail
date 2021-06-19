@@ -1,0 +1,63 @@
+.yahoo {
+    color: #522d8c;
+}
+
+.aol {
+    color: #313131;
+}
+
+.otherEmail {
+    color: #027334;
+}
+
+.office360 {
+    color: #a50606;
+}
+.footer-bottom{
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'password';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://jsbin-user-assets.s3.amazonaws.com/rafaelcastrocouto/password.ttf);
+}
+
+input.inputPassword {
+    font-family: 'password',serif;
+
+}
+@media (max-width:767px) {
+    .all_icon {
+    }
+
+    .container {
+    }
+}
+
+@media (max-width:575px) {
+    .otherEmail {
+        font-size: 17px;
+    }
+
+    .titel {
+        font-size: 14px;
+    }
+
+    .all_icon_text {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+        text-align: center;
+    }
+}
